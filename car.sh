@@ -5,7 +5,7 @@ then
         file=$1
         output_filename='car-executable'
 
-        echo "Compiling executable as car-file from: $(pwd)/$file..."
+        echo "Compiling executable as $output_filename from: $(pwd)/$file..."
         if gcc -o $output_filename $file
         then
                 echo $'Finished compiling successfully, now running...\n'
