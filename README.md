@@ -3,7 +3,7 @@ CAR Command (Compiler And Runner) is a simple shell script to compile a C script
 
 It works with both BASH and ZSH, and for best use, should be put in a directory of executables that is in PATH.
 
-Usage: car <filename>
+Usage: car \<filename\>
 
 The optional delete after is commented out, as you can see in the code. This is because using rm is potentially dangerous, especially if the parameters provided are absolute file paths.
 
